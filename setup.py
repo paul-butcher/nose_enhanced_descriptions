@@ -23,7 +23,9 @@ setuptools.setup(
         'Programming Language :: Python :: 3',
         'Programming Language :: Python :: 3.4',
         'Programming Language :: Python :: 3.5',
-        'Topic :: Software Development :: Testing'
+        'Topic :: Software Development :: Testing',
+        'License :: OSI Approved :: MIT License'
+
     ],
     entry_points={
         'nose.plugins.0.10': [

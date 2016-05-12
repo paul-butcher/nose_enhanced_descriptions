@@ -5,8 +5,8 @@ nose-long-descriptions
     :target: https://pypi.python.org/pypi/nose-enhanced-descriptions
     :alt: Latest PyPI version
 
-.. image:: https://travis-ci.org/paul-butcher/nose-enhanced-descriptions.png
-   :target: https://travis-ci.org/paul-butcher/nose-enhanced-descriptions
+.. image:: https://travis-ci.org/paul-butcher/nose_enhanced_descriptions.png
+   :target: https://travis-ci.org/paul-butcher/nose_enhanced_descriptions
    :alt: Latest Travis CI build status
 
 Improves nose test description output
