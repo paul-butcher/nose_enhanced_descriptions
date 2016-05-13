@@ -2,8 +2,8 @@ import setuptools
 
 setuptools.setup(
     name="nose-enhanced-descriptions",
-    version="0.1.4",
-    url="https://github.com/paul-butcher/nose-enhanced-descriptions",
+    version="0.1.5",
+    url="https://github.com/paul-butcher/nose_enhanced_descriptions",
 
     author="Paul Butcher",
     author_email="paul.butcher@gmail.com",

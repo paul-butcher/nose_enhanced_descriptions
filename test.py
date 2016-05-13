@@ -49,7 +49,26 @@ class TestEnhancedDescriptions(PluginTester, unittest.TestCase):
         """
         A blank docstring is treated as though absent.
         """
-        self.assertNotIn("()", self.output)
+        self.assertNotIn("() ...", self.output)
+
+    def test_error(self):
+        """
+        Tests that raise an exception work the same way
+        """
+        self.assertIn(
+            "(I have a docstring and I raise) ... ERROR",
+            self.output
+        )
+
+    def test_falure(self):
+        """
+        Tests that fail work the same way
+        """
+        self.assertIn(
+            "(I have a docstring and I fail) ... FAIL",
+            self.output
+        )
+
 
 
 if __name__ == '__main__':

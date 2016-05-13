@@ -28,3 +28,11 @@ class MetaTest(unittest.TestCase):
 
         """
         pass
+
+    def test_fail(self):
+        """I have a docstring and I fail"""
+        self.fail()
+
+    def test_error(self):
+        """I have a docstring and I raise"""
+        raise Exception
