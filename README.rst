@@ -1,4 +1,4 @@
-nose-long-descriptions
+nose-enhanced-descriptions
 ======================
 
 .. image:: https://img.shields.io/pypi/v/nose-enhanced-descriptions.svg
