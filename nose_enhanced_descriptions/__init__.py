@@ -32,8 +32,8 @@ class EnhancedDescriptions(Plugin):
 
 def get_id(test):
     """
-    Return the id of the given test, formatted as   The id is
-    :param test:
+    Return the id of the given test, formatted as expected by nose.
+    :param test: a nose.case.Test instance
     :return:
     """
     test_id = test.id()
